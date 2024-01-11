@@ -2,10 +2,10 @@
 Development container configuration for UIC's Spring 2024 CS-411
 
 ## Prerequisites
-1. (Docker)[https://www.docker.com/get-started/]
-2. (Visual Studio Code)[https://code.visualstudio.com/Download]
-3. (Dev Containers Extension for VSCode)(https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-4. (Local Clone of this Repository)[https://github.com/garrettpfoy/UIC-CS411-Environment]
+1. [Docker](https://www.docker.com/get-started/)
+2. [Visual Studio Code](https://code.visualstudio.com/Download)
+3. [Dev Containers Extension for VSCode](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+4. [Local Clone of this Repository](https://github.com/garrettpfoy/UIC-CS411-Environment)
 
 ## How to Run
 * Assuming you've installed all the requirements listed above, open this repository (or any repository with the .devcontainer folder and configuration in its root folder) in Visual Studio Code*
