@@ -1,0 +1,25 @@
+{
+    "name": "CS-411 Python Development Environment",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "..",
+        "args": {
+            "PYTHON_VERSION": "3.6"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "python.linting.enabled": true,
+				"python.linting.pylintEnabled": true,
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    }
+}
